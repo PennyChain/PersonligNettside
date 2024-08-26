@@ -59,6 +59,10 @@
         color: rgb(86, 86, 86);
     }
 
+    a:active {
+        text-decoration: underline;
+    }
+
     a:hover {
         color: rgb(0, 0, 0);
         font-size: 110%;
