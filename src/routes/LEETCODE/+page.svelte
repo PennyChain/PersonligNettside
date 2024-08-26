@@ -3,4 +3,13 @@
     export let data;
 </script>
 
-<h1>Test6</h1>
+<a id="LeetcodeLink" href="https://leetcode.com/u/liamribe05123/" target="_blank">LeetCode</a>
+
+<style>
+
+    #LeetcodeLink {
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
