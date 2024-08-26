@@ -1,4 +1,4 @@
-<h1 id="MainHeader">Liam RIBE CV</h1>
+<h1>Homepagetest</h1>
 <!-- <p>{a}</p> -->
 
 <script>
@@ -9,8 +9,6 @@
 
 <style>
 
-    #MainHeader {
-        text-align: center;
-    }
+    
 
 </style>
