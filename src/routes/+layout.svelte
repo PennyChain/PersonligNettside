@@ -10,7 +10,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h1 id="MainHeader">Liam Ribe</h1>
+<h1 id="MainHeader">LIAM RIBE</h1>
 
 <nav class="navbar1">
     <a href="/" class="{ $page.url.pathname === '/' ? 'active' : '' }">HJEM</a>
