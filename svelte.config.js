@@ -1,10 +1,10 @@
 import adapter from '@sveltejs/adapter-static'; // Eller adapter-auto hvis du foretrekker det.
 
-export default {
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
   kit: {
     adapter: adapter({
-      // Du kan spesifisere mappen hvor den bygde nettsiden skal legges, f.eks. 'build' eller 'dist'
-      pages: 'build', // Sørg for at denne er riktig
+      pages: 'build', // Spesifiserer mappen hvor bygget skal lagres
       assets: 'build',
       fallback: null,
       precompress: false,
@@ -15,3 +15,5 @@ export default {
     },
   }
 };
+
+export default config;
