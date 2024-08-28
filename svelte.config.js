@@ -1,13 +1,17 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static'; // Eller adapter-auto hvis du foretrekker det.
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	kit: {
-		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
-		adapter: adapter()
-	}
+export default {
+  kit: {
+    adapter: adapter({
+      // Du kan spesifisere mappen hvor den bygde nettsiden skal legges, f.eks. 'build' eller 'dist'
+      pages: 'build', // Sørg for at denne er riktig
+      assets: 'build',
+      fallback: null,
+      precompress: false,
+      strict: true
+    }),
+    paths: {
+      base: ''
+    },
+  }
 };
-
-export default config;
