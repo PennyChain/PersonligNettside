@@ -3,7 +3,7 @@ name: Deploy Svelte to GitHub Pages
 on:
   push:
     branches:
-      - master  # Kjør når det pushes til "main" branch
+      - main  # Kjør når det pushes til "main" branch
 
 jobs:
   build-and-deploy:
