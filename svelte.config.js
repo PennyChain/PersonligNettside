@@ -1,19 +1,16 @@
-import adapter from '@sveltejs/adapter-static'; // Eller adapter-auto hvis du foretrekker det.
+import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-  kit: {
-    adapter: adapter({
-      pages: 'build', // Spesifiserer mappen hvor bygget skal lagres
-      assets: 'build',
-      fallback: null,
-      precompress: false,
-      strict: true
-    }),
-    paths: {
-      base: ''
-    },
-  }
+export default {
+	kit: {
+		adapter: adapter({
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true,
+      trailingSlash: 'always',
+		})
+	}
 };
-
-export default config;

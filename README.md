@@ -1,3 +1,16 @@
+# Min første ordentlige nettside
+
+* Jeg vette faan hvordan jeg skal fikse dette, men jeg må bare prøve meg fram
+
+
+
+
+
+
+
+
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
