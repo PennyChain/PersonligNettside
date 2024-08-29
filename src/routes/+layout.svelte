@@ -1,4 +1,5 @@
 <script>
+    export const prerender = true;
     /** @type {import('./$types').LayoutData} */
     export let data;
 
