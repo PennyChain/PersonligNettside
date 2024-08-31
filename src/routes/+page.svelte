@@ -1,25 +1,39 @@
 <script>
-
+    import cvImage from 'C:\\Users\\liamr\\Documents\\Skole\\JavaScript\\SvelteKit\\PersonligNettside\\src\\lib\\Bilder\\IMG_4352.jpg'
 </script>
 
 <div class="biggerbox">
     <div class="bigbox">
-
+        <h1 id="CvHeader">CV</h1>
+        <img id="cvbilde" src="{cvImage}" alt="bilde">
     </div>
 </div>
 
 <style>
+
     .biggerbox {
-        border: solid;
+        /* border: solid; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .bigbox {
-        border: solid;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         height: 80vh;
         width: 80vw;
-        background-image: url(C:\Users\Liarib001\Documents\Skole\VSCode\PersonligNettside\src\lib);
+        margin-bottom: 5%;
     }
+
+    #cvbilde {
+        width: 20%;
+    }
+
+    #CvHeader {
+        text-align: center;
+        font-family: 'Bodoni Moda', serif;
+        font-size: 40px;
+    }
+
 </style>

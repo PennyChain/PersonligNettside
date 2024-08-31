@@ -1,12 +1,11 @@
 <script>
     export const prerender = true;
     /** @type {import('./$types').LayoutData} */
-    export let data;
 
     import "../app.css"
 
     import { page } from '$app/stores';
-
+    
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
