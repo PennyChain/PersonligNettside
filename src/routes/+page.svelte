@@ -1,11 +1,11 @@
 <script>
-    import cvImage from 'C:\\Users\\liamr\\Documents\\Skole\\JavaScript\\SvelteKit\\PersonligNettside\\src\\lib\\Bilder\\IMG_4352.jpg'
+
 </script>
 
 <div class="biggerbox">
     <div class="bigbox">
         <h1 id="CvHeader">CV</h1>
-        <img id="cvbilde" src="{cvImage}" alt="bilde">
+        <img id="cvbilde" src="C:\Users\liamr\Documents\Skole\JavaScript\SvelteKit\PersonligNettside\src\lib\Bilder\IMG_4352.jpg" alt="bilde">
     </div>
 </div>
 
