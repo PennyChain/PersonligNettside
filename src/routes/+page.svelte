@@ -33,7 +33,7 @@
     #CvHeader {
         text-align: center;
         font-family: 'Bodoni Moda', serif;
-        font-size: 40px;
+        font-size: 45px;
     }
 
 </style>
