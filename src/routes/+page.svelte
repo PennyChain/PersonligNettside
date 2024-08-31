@@ -5,7 +5,7 @@
 <div class="biggerbox">
     <div class="bigbox">
         <h1 id="CvHeader">CV</h1>
-        <img id="cvbilde" src="/static/Bilder/IMG_4352.jpg" alt="bilde">
+        <img id="cvbilde" src="/Bilder/IMG_4352.jpg" alt="bilde">
     </div>
 </div>
 
