@@ -3,4 +3,4 @@
     export let data;
 </script>
 
-<h1>Test</h1>
+<h1>Test - Prosjekter</h1>

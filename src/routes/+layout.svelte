@@ -13,12 +13,11 @@
 <h1 id="MainHeader">LIAM RIBE</h1>
 
 <nav class="navbar1">
-    <a href="/" class="{ $page.url.pathname === '/' ? 'active' : '' }">HJEM</a>
+    <a href="/" class="{ $page.url.pathname === '/' ? 'active' : '' }">OM MEG</a>
     <a href="/CV" class="{ $page.url.pathname === '/CV' ? 'active' : '' }">CV</a>
-    <a href="/OM MEG" class="{ $page.url.pathname === '/OM%20MEG' ? 'active' : '' }">OM MEG</a>
-    <a href="/KONTAKT" class="{ $page.url.pathname === '/KONTAKT' ? 'active' : '' }">KONTAKT</a>
-    <a href="/TJENESTER" class="{ $page.url.pathname === '/TJENESTER' ? 'active' : '' }">TJENESTER</a>
+    <a href="/PROSJEKTER" class="{ $page.url.pathname === '/TJENESTER' ? 'active' : '' }">PROSJEKTER</a>
     <a href="/LINKEDIN" class="{ $page.url.pathname === '/LINKEDIN' ? 'active' : '' }">LINKEDIN</a>
+    <a href="/KONTAKT" class="{ $page.url.pathname === '/KONTAKT' ? 'active' : '' }">KONTAKT</a>
     <a href="/LEETCODE" class="{ $page.url.pathname === '/LEETCODE' ? 'active' : '' }">LEETCODE</a>
 </nav>
 
