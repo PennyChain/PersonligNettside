@@ -4,8 +4,12 @@
 
 <div class="biggerbox">
     <div class="bigbox">
-        <h1 id="CvHeader">CV</h1>
-        <img id="cvbilde" src="/Bilder/IMG_4352.jpg" alt="bilde">
+        <div class="tekstboks">
+            <h1 id="CvHeader">Meg</h1>
+        </div>
+        <div class="bilder">
+            <img id="cvbilde" src="/Bilder/IMG_4352.jpg" alt="bilde">
+        </div>
     </div>
 </div>
 
@@ -21,19 +25,26 @@
     .bigbox {
         background-color: rgb(255, 255, 255);
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        height: 80vh;
-        width: 80vw;
+        height: 100%;
+        width: 60vw;
         margin-bottom: 5%;
     }
 
-    #cvbilde {
-        width: 20%;
+    .bilder {
+        display: flex;
+        justify-content: right;
+        margin: 5%;
     }
 
-    #CvHeader {
-        text-align: center;
+    .tekstboks {
+        text-align: left;
         font-family: 'Bodoni Moda', serif;
-        font-size: 45px;
+        font-size: 22px;
+        margin: 5%;
+    }
+
+    #cvbilde {
+        width: 35%;
     }
 
 </style>
