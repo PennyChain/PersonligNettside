@@ -28,8 +28,8 @@
     }
 
     .bigbox {
-        /* background-color: rgb(255, 255, 255); */
-        /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+        /* background-color: rgb(255, 254, 251); */
+        /* box-shadow: rgba(0, 0, 0, 0.14) 0px 1.5px 4px; */
         display: flex;
         align-items: center;
         height: 100%;
