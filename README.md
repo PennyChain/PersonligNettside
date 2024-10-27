@@ -1,8 +1,5 @@
 # Min første ordentlige nettside
 
-* Jeg vette faan hvordan jeg skal fikse dette, men jeg må bare prøve meg fram
-
-
 
 
 
