@@ -5,7 +5,10 @@
 <div class="biggerbox">
     <div class="bigbox">
         <div class="tekstboks">
-            <h1 id="CvHeader">Meg</h1>
+            <h1 id="CvHeader">Om Meg</h1>
+            <p>
+                Commodo sint magna occaecat ad. Eu anim qui incididunt aliquip irure ipsum et consectetur nostrud incididunt eu. Sunt quis ut elit non.
+            </p>
         </div>
         <div class="bilder">
             <img id="cvbilde" src="/Bilder/IMG_4352.jpg" alt="bilde">
@@ -20,11 +23,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
     }
 
     .bigbox {
-        background-color: rgb(255, 255, 255);
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* background-color: rgb(255, 255, 255); */
+        /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
         height: 100%;
         width: 60vw;
         margin-bottom: 5%;
@@ -41,6 +45,7 @@
         font-family: 'Bodoni Moda', serif;
         font-size: 22px;
         margin: 5%;
+        width: 50%;
     }
 
     #cvbilde {
