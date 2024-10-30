@@ -34,7 +34,6 @@
 <slot></slot>
 
 <style>
-
     #MainHeader {
         text-align: center;
         font-family: 'Bodoni Moda', serif;
@@ -77,5 +76,44 @@
         font-size: 105%;
     }
 
+    /* Responsiv for mellomstore skjermer (nettbrett) */
+    @media (max-width: 768px) {
+        .navbar1 {
+            font-size: 18px;
+            gap: 2%;
+            margin-bottom: 40px;
+        }
+
+        #MainHeader {
+            font-size: 28px;
+        }
+    }
+
+    /* Responsiv for små skjermer (mobil) */
+    @media (max-width: 480px) {
+        #MainHeader {
+            font-size: 24px;
+        }
+
+        .navbar1 {
+            flex-direction: column; /* Gjør navigasjonslenker vertikale */
+            font-size: 16px;
+            height: auto;
+            gap: 10px;
+            padding-bottom: 10px;
+        }
+
+        .navbar1 a {
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Endre hover-effekt for bedre lesbarhet på mobil */
+        a:hover {
+            font-size: 100%;
+            color: rgb(50, 50, 50);
+        }
+    }
 </style>
 

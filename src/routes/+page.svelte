@@ -18,9 +18,7 @@
 </div>
 
 <style>
-
     .biggerbox {
-        /* border: solid; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -28,13 +26,12 @@
     }
 
     .bigbox {
-        /* background-color: rgb(255, 254, 251); */
-        /* box-shadow: rgba(0, 0, 0, 0.14) 0px 1.5px 4px; */
         display: flex;
         align-items: center;
         height: 100%;
         width: 63vw;
         margin-bottom: 5%;
+        flex-direction: row; /* Holder tekst og bilde i radvisning på større skjermer */
     }
 
     .bilder {
@@ -56,4 +53,46 @@
         width: 75%;
     }
 
+    /* Responsiv for mellomstore skjermer (f.eks. nettbrett) */
+    @media (max-width: 768px) {
+        .bigbox {
+            flex-direction: column; /* Endrer til kolonnevisning */
+            width: 80vw;
+        }
+
+        .tekstboks, .bilder {
+            width: 100%; /* Full bredde */
+            margin: 2%;
+            text-align: center;
+        }
+
+        .bilder {
+            display: flex;
+            justify-content: center;
+        }
+
+        #cvbilde {
+            width: 60%; /* Justerer bildestørrelsen */
+        }
+    }
+
+    /* Responsiv for små skjermer (f.eks. mobil) */
+    @media (max-width: 480px) {
+        .biggerbox {
+            margin-top: 50px;
+        }
+
+        .bigbox {
+            width: 90vw;
+        }
+
+        .tekstboks {
+            font-size: 18px; /* Mindre font for mobil */
+        }
+
+        #cvbilde {
+            width: 80%; /* Øker bildestørrelsen litt på mobil */
+        }
+    }
 </style>
+
