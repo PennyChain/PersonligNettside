@@ -3,11 +3,11 @@
     export let data;
 </script>
 
-<a id="LeetcodeLink" href="https://leetcode.com/u/liamribe05123/" target="_blank">LeetCode</a>
+<a id="GithubLink" href="https://github.com/PennyChain?tab=repositories" target="_blank">Github</a>
 
 <style>
 
-    #LeetcodeLink {
+    #GithubLink {
         display: flex;
         justify-content: center;
     }

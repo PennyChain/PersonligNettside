@@ -18,7 +18,7 @@
     <a href="/PROSJEKTER" class="{ $page.url.pathname === '/TJENESTER' ? 'active' : '' }">PROSJEKTER</a>
     <a href="/LINKEDIN" class="{ $page.url.pathname === '/LINKEDIN' ? 'active' : '' }">LINKEDIN</a>
     <a href="/KONTAKT" class="{ $page.url.pathname === '/KONTAKT' ? 'active' : '' }">KONTAKT</a>
-    <a href="/LEETCODE" class="{ $page.url.pathname === '/LEETCODE' ? 'active' : '' }">LEETCODE</a>
+    <a href="/Github" class="{ $page.url.pathname === '/Github' ? 'active' : '' }">GITHUB</a>
 </nav>
 
 
