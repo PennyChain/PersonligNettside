@@ -1,5 +1,4 @@
 <script>
-    export const prerender = true;
     /** @type {import('./$types').LayoutData} */
 
     import "../app.css"
