@@ -12,9 +12,14 @@
     "@sveltejs/adapter-static": "^3.0.4",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
     "svelte": "^4.2.7",
+    "tailwindcss": "^4.0.7",
     "vite": "^5.4.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "latest": "^0.2.0"
+  }
 }
-

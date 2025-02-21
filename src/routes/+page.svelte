@@ -1,5 +1,5 @@
 <script>
-    
+
 </script>
 
 <div class="biggerbox">
@@ -12,7 +12,7 @@
             </p>
         </div>
         <div class="bilder">
-            <img id="cvbilde" src="/Bilder/IMG_4352.jpg" alt="bilde">
+            <img id="cvbilde" src="/Bilder/meg2.png" alt="Portrett">
         </div>
     </div>
 </div>
