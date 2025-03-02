@@ -44,7 +44,7 @@ jobs:
         run: pnpm run build
 
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'build/'
 
@@ -59,4 +59,9 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: PennyChain/github-pages-deploy-action@v4
+        with:
+          branch: releases/v4
+          folder: .
+          clean: false
+          single-commit: true
